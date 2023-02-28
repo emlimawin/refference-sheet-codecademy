@@ -1,0 +1,85 @@
+
+/*Resets some of the CSS Defaults*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    }
+
+* {
+    margin: 0;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Basic Styling*/
+
+body {
+    background-color:honeydew;
+}
+
+tr{
+    background-color: honeydew;
+}
+
+td,
+th {
+    border:2.5px solid black;
+}
+
+td,
+.tab__name,
+.tab__categories {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-family: 'Red Hat Mono';
+    font-size: 30px;
+    text-align: center;
+    color: lightcoral;
+    padding: 20px;
+}
+
+.tab__name__text {
+    font-size: 25px;
+    background-color: lightcoral;
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+.code-tag {
+    font-family: 'Red Hat Mono';
+    background-color: black;
+    color: lightyellow;
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+.hashtag {
+    font-family: 'Red Hat Mono';
+    background-color:honeydew;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;;
+}
+
+/*General Layout*/
+
+.tab1 {
+    width: 60%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab2 {
+    width: 60%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0px 30px 0px;
+}
