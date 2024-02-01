@@ -23,6 +23,10 @@ tr{
     background-color: honeydew;
 }
 
+td {
+    margin-left: 8px;
+}
+
 td,
 th {
     border:2.5px solid black;
